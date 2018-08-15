@@ -1,6 +1,7 @@
 import React from 'react';
 
 import CssBaseline from '@material-ui/core/CssBaseline';
+import AppBar from './Bar';
 
 class AppContainer extends React.Component {
 
@@ -8,7 +9,7 @@ class AppContainer extends React.Component {
         return (
             <>
                 <CssBaseline />
-                Hello world!
+                <AppBar />
             </>
         );
     }
