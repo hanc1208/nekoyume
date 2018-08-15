@@ -25,6 +25,8 @@
         "@material-ui/icons": "^2.0.2",
         "axios": "^0.18.0",
         "components": "^0.1.0",
+        "jed": "^1.1.1",
+        "jed-gettext-parser": "^1.0.0",
         "react": "^16.4.2",
         "react-dom": "^16.4.2",
         "react-router": "^4.3.1",
