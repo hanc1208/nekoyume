@@ -110,3 +110,6 @@ yume_result.db
 
 # Cache
 .yumecache
+
+# Frontend
+node_modules/

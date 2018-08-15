@@ -1,0 +1,26 @@
+{
+    "name": "nekoyume",
+    "version": "0.0.3",
+    "description": "Decentralized MMORPG based on Dungeon World",
+    "main": "./src/index.tsx",
+    "scripts": {
+        "watch": "parcel watch src/index.tsx",
+        "build": "parcel build src/index.tsx",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "JC Kim <jcdotkim@gmail.com>",
+    "license": "MIT",
+    "devDependencies": {
+        "@types/node": "^10.7.0",
+        "@types/react": "^16.4.10",
+        "@types/react-dom": "^16.0.7",
+        "babel-plugin-module-resolver": "^3.1.1",
+        "parcel-bundler": "^1.9.7",
+        "typescript": "^3.0.1"
+    },
+    "dependencies": {
+        "components": "^0.1.0",
+        "react": "^16.4.2",
+        "react-dom": "^16.4.2"
+    }
+}
