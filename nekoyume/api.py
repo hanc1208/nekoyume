@@ -1,6 +1,7 @@
 import datetime
 
-from flask import Blueprint, jsonify, request
+from flask import Blueprint, jsonify, request, send_file
+from flask_babel import get_locale
 import requests
 from sqlalchemy.exc import IntegrityError
 
@@ -21,6 +22,11 @@ def get_public_url():
     return jsonify(
         url=get_my_public_url()
     )
+
+
+@api.route('/translations/')
+def get_translations():
+    return send_file(f'translations/{get_locale()}/LC_MESSAGES/messages.mo')
 
 
 @api.route(Node.get_nodes_endpoint, methods=['GET'])
